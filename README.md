@@ -18,7 +18,7 @@ Install pre-release:
 The design of the library is built after a couple of principles. 
 1) We want to ensure Money is handled correctly and that money math is sound. The amount is stored as an Int in "cents" (as a term meaning to any minor part of a currency). 
 2) It should not be possible to do any math operations of Money of different currencies. This is done by a type variable in the constructor. Currently any type can be added as a currency, though the library does come with a set of currencies. Typeclasses might help tighting up this API in the future.
-3) Regular division of Money is tough and doesn't quite make sense because you can't have half a penny. Instead we allow splitting Money where whole remainder is added to one of the chunks: 10 split into 3, results in 3 new Money types, 2 where the amount is 3 and 1 where the amount is 4.
+3) Regular division of Money is tough and doesn't quite make sense because you can't have half a penny. Instead we allow splitting Money where whole remainder is added to one of the chunks: 10 split into 3, results in 3 new Money types, 2 where the amount is 3 and 1 where the amount is 4. _Note that there are cases where fractional pennies make sense, but that has not been the focus here._
 
 ## API
 
