@@ -4,12 +4,13 @@ A Small library for working with Money in Unison
 
 ## Install
 
-🧪 Note that this library is currently very much in the development and exploration phase.
+### Status: 🏗 Pre-release
+This library is currently very much in the development and exploration phase.
 
-Install unstable trunk:
+Install pre-release:
 
 ```
-.> pull git@github.com:hojberg/unison-money.git money
+.> pull git@github.com:hojberg/unison-money.git:.releases._v0 external.money.v0
 ```
 
 ## Design
