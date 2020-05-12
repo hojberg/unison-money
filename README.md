@@ -4,7 +4,7 @@ A Small library for working with Money in Unison
 
 ## Install
 
-Note that this library is currently very much in the development and exploration phase.
+🧪 Note that this library is currently very much in the development and exploration phase.
 
 Install unstable trunk:
 
