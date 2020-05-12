@@ -32,3 +32,4 @@ The design of the library is built after a couple of principles.
 ## Planned API
 * Formatting function that allows localized formatting of Money
 * Percents, for instance for adding 20% tip at a Restaurant.
+* Tax
