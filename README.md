@@ -7,10 +7,10 @@ A Small library for working with Money in Unison
 ### Status: 🏗 Pre-release
 This library is currently very much in the development and exploration phase.
 
-Install pre-release:
+Install latest (pre-release):
 
 ```
-.> pull git@github.com:hojberg/unison-money.git:.releases._v0 external.money.v0
+.> pull https://github.com/hojberg/unison-money:.releases._latest external.money
 ```
 
 ## Design
